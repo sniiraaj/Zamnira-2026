@@ -11,7 +11,7 @@ export default function Events() {
     <section className="content-section section-shell" id="events">
       <div className="section-heading">
         <div><p className="eyebrow">ENTER THE ARENA</p><h2>Choose your <span>realm.</span></h2></div>
-        <p className="section-intro">Eight challenges. Two arenas. One chance to make your mark.</p>
+        <p className="section-intro">Eight challenges. Two Domains. One chance to make your mark.</p>
       </div>
       {eventGroups.map((group) => (
         <div className="event-group" key={group.title}>

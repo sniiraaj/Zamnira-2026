@@ -2,7 +2,7 @@
 export const eventGroups = [
   {
     title: "TECHNICAL EVENTS",
-    subtitle: "Own the spotlight. Make your move.",
+    subtitle: "Code. Create. Conquer.",
     events: [
  { id: "quality", title: "DUAL SYNTAX", number: "01", category: "CODE SWITCH", description: "Switch between languages, adapt your logic and master the challenge.", link: "" },    
 { id: "propaganda", title: "PROMPTOPIA", number: "02", category: "PROMPT IMAGE", description: "Turn your imagination into stunning visuals with the power of prompts.", link: "" },
@@ -13,7 +13,7 @@ export const eventGroups = [
   },
   {
     title: "NON-TECHNICAL EVENTS",
-    subtitle: "Create in the shadows. Stand out in the end.",
+    subtitle: "Explore. Express. Excel.",
     events: [
       { id: "glitch-hunt", title: "TWIN TONES", number: "01", category: "DUAL ADAPTUNE", description: " Team up, adapt on the fly, and out-dance the beat.", link: "" },
 { id: "shadow-frame", title: "THE DARK CROWN", number: "02", category: "MR AND MRS ZAMNIRA", description: "Command the stage with talent and confidence to claim the crown.", link: "" },
