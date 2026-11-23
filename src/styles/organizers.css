@@ -1,0 +1,78 @@
+
+.organizer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.organizer-card {
+  padding: 22px;
+  background: linear-gradient(145deg, #092443, #030e1d);
+  border: 1px solid var(--line);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle decorative electric-blue corner rings */
+.organizer-card::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -48px;
+  top: -48px;
+  border: 1px solid rgba(0, 190, 255, 0.28);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 12px rgba(0, 190, 255, 0.06),
+    0 0 0 26px rgba(0, 110, 255, 0.06);
+  pointer-events: none;
+}
+
+/* Remove alphabet initials completely */
+.organizer-avatar {
+  display: none;
+}
+
+.organizer-card > p {
+  color: var(--gold);
+  font-size: 8px;
+  letter-spacing: 0.14em;
+  margin: 0 0 12px;
+}
+
+.organizer-card h3 {
+  font: 700 15px 'Space Grotesk', sans-serif;
+  margin: 0 0 12px;
+  line-height: 1.4;
+  position: relative;
+}
+
+/* Elegant gold accent beneath the name */
+.organizer-card h3::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 2px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+.organizer-card > span {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .organizer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .organizer-grid {
+    grid-template-columns: 1fr;
+  }
+}

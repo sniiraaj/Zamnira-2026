@@ -1,0 +1,50 @@
+/* Rules section — matches the ZAMNIRA navy, electric-blue and cyan theme */
+.rules-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  position: relative;
+}
+.rules-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.rule-item {
+  min-height: 100px;
+  display: grid;
+  grid-template-columns: 34px 20px minmax(0, 1fr);
+  align-items: start;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid rgba(0, 190, 255, .28);
+  background: linear-gradient(145deg, rgba(7, 25, 47, .94), rgba(3, 12, 25, .97));
+  transition: border-color .25s, transform .25s, box-shadow .25s;
+}
+.rule-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 217, 245, .68);
+  box-shadow: 0 10px 28px rgba(0, 135, 255, .13);
+}
+.rule-number {
+  font: 700 12px 'Space Grotesk', sans-serif;
+  color: #35cfff;
+  letter-spacing: .08em;
+}
+.rule-item svg {
+  color: var(--gold);
+  margin-top: 1px;
+}
+.rule-item p {
+  margin: 0;
+  color: #c5d9ec;
+  font-size: 12px;
+  line-height: 1.8;
+}
+@media (max-width: 800px) {
+  .rules-section { padding-top: 76px; padding-bottom: 76px; }
+  .rules-list { grid-template-columns: 1fr; }
+  .rule-item { min-height: 0; padding: 17px; gap: 11px; }
+}

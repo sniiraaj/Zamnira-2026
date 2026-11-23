@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f2f8ff;
+  background: #030914;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+
+  --bg: #030914;
+  --panel: #071629;
+  --muted: #a9c0d8;
+  --line: rgba(0,190,255,.30);
+  --blue: #087dff;
+  --gold: #00d9f5;
+  --purple: #168bff;
+  --red: #00d9f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #030914;
+  position: relative;
+}
+
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  background-color: #030914;
+
+  background-image:
+    linear-gradient(
+      to bottom,
+      #030914 0%,
+      rgba(3, 9, 20, 0.98) 8%,
+      rgba(3, 9, 20, 0.82) 18%,
+      rgba(3, 9, 20, 0.45) 32%,
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse 42% 25% at 100% 30%,
+      rgba(0, 110, 255, 0.22),
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 40% 25% at 0% 35%,
+      rgba(0, 180, 255, 0.19),
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 38% 24% at 0% 65%,
+      rgba(0, 220, 245, 0.14),
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 42% 28% at 100% 72%,
+      rgba(0, 85, 210, 0.20),
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 40% 22% at 15% 100%,
+      rgba(0, 150, 255, 0.12),
+      transparent 75%
+    ),
+    radial-gradient(
+      ellipse 40% 22% at 100% 100%,
+      rgba(0, 190, 255, 0.17),
+      transparent 75%
+    );
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+header a,
+nav a,
+.navbar a {
+  text-decoration: none !important;
+}

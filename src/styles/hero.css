@@ -1,0 +1,421 @@
+
+/* =========================================
+   HERO SECTION — DESKTOP
+========================================= */
+
+.hero {
+  min-height: 780px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 82px 58px 36px;
+  border: 1px solid rgba(0,217,245,.32);
+
+  /* Fallback background behind the image */
+  background:
+    radial-gradient(
+      ellipse at 72% 38%,
+      rgba(0,105,255,.34),
+      transparent 34%
+    ),
+    radial-gradient(
+      ellipse at 12% 80%,
+      rgba(0,190,255,.18),
+      transparent 36%
+    ),
+    linear-gradient(
+      125deg,
+      #030914 12%,
+      #071a32 58%,
+      #030914
+    );
+}
+
+/* Actual background image from homeData.js */
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center 45%;
+  opacity: 0.65;
+  mix-blend-mode: normal;
+}
+
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 9, 20, 0.52),
+      rgba(3, 9, 20, 0.20) 55%,
+      rgba(3, 9, 20, 0.04)
+    ),
+    linear-gradient(
+      0deg,
+      rgba(3, 9, 20, 0.42),
+      transparent 45%
+    );
+}
+
+.hero-content,
+.hero-bottom {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.hero-content .eyebrow {
+  margin: 0 0 28px;
+}
+
+.hero-college {
+  font: 700 clamp(15px,1.7vw,21px) 'Space Grotesk';
+  letter-spacing: .08em;
+  margin: 0 0 8px;
+}
+
+.hero-department {
+  font-size: 11px;
+  color: #b8d9f4;
+  letter-spacing: .16em;
+  margin: 0;
+}
+
+.hero h1 {
+  font: 900 clamp(72px,13vw,168px)/.96 'Cinzel',serif;
+  letter-spacing: -.045em;
+  margin: 28px 0 12px;
+  color: #eaf8ff;
+  text-shadow:
+    0 0 30px rgba(0,190,255,.42),
+    0 5px 30px rgba(0,105,255,.30);
+}
+
+.hero h1 span {
+  color: #fff;
+}
+
+.hero-tagline {
+  color: #d8edff;
+  font: 600 clamp(13px,1.5vw,18px) 'Space Grotesk';
+  letter-spacing: .18em;
+  max-width: 560px;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 30px 0;
+}
+
+.hero-meta span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #d8edff;
+  font-size: 11px;
+  letter-spacing: .08em;
+}
+
+.hero-meta svg {
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  padding: 15px 19px;
+  border: 1px solid rgba(0,217,245,.85);
+  color: white;
+  font-size: 12px;
+  transition: background .25s, transform .25s;
+  box-shadow: 0 0 24px rgba(0,190,255,.12);
+}
+
+.primary-button:hover {
+  background: rgba(0,190,255,.16);
+  transform: translateY(-2px);
+}
+
+.hero-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+  margin-top: 66px;
+}
+
+.hero-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #b8d9f4;
+  font-size: 9px;
+  letter-spacing: .2em;
+}
+
+.hero-note-line {
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.countdown {
+  width: min(450px,100%);
+  padding: 19px 24px;
+  border: 1px solid rgba(0,217,245,.48);
+  background: rgba(3,9,20,.76);
+  backdrop-filter: blur(12px);
+}
+
+.countdown-label {
+  text-align: center;
+  color: var(--gold);
+  font-size: 9px;
+  letter-spacing: .17em;
+  margin: 0 0 15px;
+}
+
+.countdown-units {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.countdown-unit {
+  display: grid;
+  text-align: center;
+  gap: 5px;
+  border-right: 1px solid var(--line);
+}
+
+.countdown-unit:last-child {
+  border: 0;
+}
+
+.countdown-unit strong {
+  font: 700 30px 'Space Grotesk';
+  color: #fff;
+}
+
+.countdown-unit span {
+  font-size: 8px;
+  letter-spacing: .13em;
+  color: #9dbbd5;
+}
+
+
+/* =========================================
+   MOBILE — COMPACT FULL-WIDTH DESIGN
+========================================= */
+
+@media (max-width: 700px) {
+
+  .hero {
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    min-height: auto;
+    padding: 42px 22px 25px;
+    justify-content: flex-start;
+
+    border-left: 0;
+    border-right: 0;
+  }
+
+  /* Keep the processor/chip centered on narrow screens */
+  .hero-image {
+    background-position: 70% center;
+  }
+
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 9, 20, 0.52),
+      rgba(3, 9, 20, 0.20) 55%,
+      rgba(3, 9, 20, 0.04)
+    ),
+    linear-gradient(
+      0deg,
+      rgba(3, 9, 20, 0.42),
+      transparent 45%
+    );
+
+}
+  .hero-content {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero-content .eyebrow {
+    font-size: 9px;
+    line-height: 1.7;
+    letter-spacing: .16em;
+    margin-bottom: 20px;
+  }
+
+  .hero-college {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: .055em;
+    margin-bottom: 5px;
+  }
+
+  .hero-department {
+    font-size: 9px;
+    line-height: 1.7;
+    letter-spacing: .09em;
+  }
+
+  /* Fest title */
+
+  .hero h1 {
+    font-size: clamp(38px,11.2vw,64px);
+    line-height: 1;
+    letter-spacing: -.055em;
+    white-space: nowrap;
+    margin: 23px 0 13px;
+  }
+
+  .hero-tagline {
+    font-size: 11px;
+    line-height: 1.7;
+    letter-spacing: .12em;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* Date and venue */
+
+  .hero-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    margin: 23px 0;
+  }
+
+  .hero-meta span {
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: .07em;
+    gap: 10px;
+  }
+
+  .hero-meta svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  /* Button */
+
+  .primary-button {
+    padding: 13px 16px;
+    font-size: 11px;
+    gap: 20px;
+  }
+
+  /* Bottom area */
+
+  .hero-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 23px;
+    margin-top: 34px;
+  }
+
+  .hero-note {
+    font-size: 8px;
+    letter-spacing: .18em;
+  }
+
+  .hero-note-line {
+    width: 34px;
+  }
+
+  /* Countdown */
+
+  .countdown {
+    width: 100%;
+    padding: 16px 8px;
+  }
+
+  .countdown-label {
+    font-size: 8px;
+    letter-spacing: .15em;
+    margin-bottom: 13px;
+  }
+
+  .countdown-units {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  }
+
+  .countdown-unit {
+    gap: 5px;
+  }
+
+  .countdown-unit strong {
+    font-size: clamp(19px,6vw,25px);
+  }
+
+  .countdown-unit span {
+    font-size: 7px;
+    letter-spacing: .07em;
+  }
+}
+
+
+/* =========================================
+   EXTRA SMALL PHONES
+========================================= */
+
+@media (max-width: 360px) {
+
+  .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .hero h1 {
+    font-size: 37px;
+  }
+
+  .hero-college {
+    font-size: 13px;
+  }
+
+  .hero-department {
+    font-size: 8px;
+  }
+
+  .hero-tagline {
+    font-size: 10px;
+  }
+
+  .countdown {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .countdown-unit strong {
+    font-size: 19px;
+  }
+}
