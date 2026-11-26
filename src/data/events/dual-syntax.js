@@ -13,9 +13,9 @@ export default {
     "Both solutions must produce the expected output.",
     "Participants can choose any two programming languages of their preference.",
     "Time limit: 90 minutes.",
-    "Use of mobile phones or external help is strictly prohibited.",
+    "The use of mobile phones or external help is strictly prohibited.",
     "Any form of unfair practice will lead to disqualification.",
-    "Judges’ decision will be final and binding.",
+    "The judges' decision will be final and binding.",
     "Judging criteria: Logical approach, code accuracy, successful execution and time taken."
-  ]
+]
 };
