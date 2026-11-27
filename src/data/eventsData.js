@@ -5,7 +5,7 @@ export const eventGroups = [
     subtitle: "Code. Create. Conquer.",
     events: [
  { id: "quality", title: "DUAL SYNTAX", number: "01", category: "CODE SWITCH", description: "Switch between languages, adapt your logic and master the challenge.", link: "" },    
-{ id: "propaganda", title: "PROMPTOMAMIA", number: "02", category: "PROMPT IMAGE", description: "Turn your imagination into stunning visuals with the power of prompts.", link: "" },
+{ id: "propaganda", title: "PROMPTOMANIA", number: "02", category: "PROMPT IMAGE", description: "Turn your imagination into stunning visuals with the power of prompts.", link: "" },
 { id: "dark-matter", title: "BYTE BATTLES", number: "03", category: "TECH DUMB CHARADES", description: "Act out the tech terms, think fast and let your team guess.", link: "" },
 { id: "dark-canvas", title: "TECH NOVA", number: "04", category: "PAPER PRESENTATION", description: "Present your ideas, defend your research and make an impact.", link: "" }
     

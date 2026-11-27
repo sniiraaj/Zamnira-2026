@@ -1,7 +1,7 @@
 // Edit this file to change the PROMPTOPIA event page and its registration link.
 export default {
   id: "propaganda",
-  title: "PROMPTOMAMIA",
+  title: "PROMPTOMANIA",
   category: "PROMPT IMAGE",
   description: "Turn your imagination into stunning visuals with the power of prompts.",
   inCharge: {
