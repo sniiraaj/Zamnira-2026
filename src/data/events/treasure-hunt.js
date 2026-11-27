@@ -6,7 +6,7 @@ export default {
   description: "Decode the clues and race the clock to find the hidden prize.",
   inCharge: {
   name: "Jeeva",
-  contact: "6369662366"
+  contact: "+91 6369662366"
 },
 icon: "map",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfc57Up8V1gTkhtbxHwyJUMRZW7Gu0svdabnueIbiR60RnMoQ/viewform?usp=publish-editor",

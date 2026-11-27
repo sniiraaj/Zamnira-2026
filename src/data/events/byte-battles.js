@@ -6,7 +6,7 @@ export default {
   description: "Act out the tech terms, think fast and let your team guess.",
   inCharge: {
   name: "Gokula Krishnan",
-  contact: "9500039972"
+  contact: "+91 9500039972"
 },
   icon: "messages",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeuqT7kpRMMM6O7uP1d0B_Facl02IGQHZOGwwDZfU4m7TKowQ/viewform?usp=publish-editor",

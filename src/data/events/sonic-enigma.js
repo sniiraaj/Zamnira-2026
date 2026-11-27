@@ -6,7 +6,7 @@ export default {
   description: "Race the buzzer and solve visual clues in an epic music showdown.",
   inCharge: {
   name: "Shalo Daniel",
-  contact: "9042830975"
+  contact: "+91 9042830975"
 },
 icon: "music-waveform",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfhxTzMytSvUqQvLQF4jxIq_n2maQgQRZqAZNCSVEWjLKrcKw/viewform?usp=publish-editor",

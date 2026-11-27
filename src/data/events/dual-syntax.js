@@ -6,7 +6,7 @@ export default {
   description: "Switch between languages, adapt your logic and master the challenge.",
   inCharge: {
   name: "NIIRAAJ SUPARNA S",
-  contact: "8668155161"
+  contact: "+91 8668155161"
 },
 icon: "code",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSehhvhEM4C5aoSYk_TborVc6peBxvWPBgfa4R1wuUNsYuNu5A/viewform?usp=publish-editor",
