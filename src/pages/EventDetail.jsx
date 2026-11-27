@@ -56,6 +56,11 @@ export default function EventDetail({ eventId }) {
         <p className="event-detail-category">{event.category}</p>
         <h1>{event.title}</h1>
         <p className="event-detail-description">{event.description}</p>
+        <div className="event-incharge">
+        <h3>EVENT IN-CHARGE</h3>
+        <p>Name: [ADD NAME]</p>
+         <p>Contact: [ADD CONTACT NUMBER]</p>
+        </div>
         <p className="event-detail-department">DEPARTMENT OF COMPUTER SCIENCE AND APPLICATIONS</p>
       </section>
 

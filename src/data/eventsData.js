@@ -16,7 +16,7 @@ export const eventGroups = [
     subtitle: "Explore. Express. Excel.",
     events: [
       { id: "glitch-hunt", title: "TWIN TONES", number: "01", category: "DUAL ADAPTUNE", description: " Team up, adapt on the fly, and out-dance the beat.", link: "" },
-{ id: "shadow-frame", title: "THE DARK CROWN", number: "02", category: "MR AND MRS ZAMNIRA", description: "Command the stage with talent and confidence to claim the crown.", link: "" },
+{ id: "shadow-frame", title: "THE DARK CROWN", number: "02", category: "MR AND MS ZAMNIRA", description: "Command the stage with talent and confidence to claim the crown.", link: "" },
 { id: "silent-signal", title: "SONIC ENIGMA", number: "03", category: "START MUSIC", description: "Race the buzzer and solve visual clues in an epic music showdown.", link: "" },
 { id: "shadow-link", title: "CIPHER QUEST", number: "04", category: "TREASURE HUNT", description: "Decode the clues and race the clock to find the hidden prize.", link: "" }
     ]

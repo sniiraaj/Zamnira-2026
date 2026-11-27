@@ -2,7 +2,7 @@
 export default {
   id: "shadow-frame",
   title: "THE DARK CROWN",
-  category: "MR. & MRS. ZAMNIRA",
+  category: "MR. & MS. ZAMNIRA",
   description: "Command the stage with talent and confidence to claim the crown.",
   icon: "crown",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc7b5wKsPy01o-SLDPdKrxjRAGq0Wgq1lth3FCWLOy_VM7aCw/viewform?usp=publish-editor",
