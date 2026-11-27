@@ -4,7 +4,11 @@ export default {
   title: "PROMPTOMAMIA",
   category: "PROMPT IMAGE",
   description: "Turn your imagination into stunning visuals with the power of prompts.",
-  icon: "image",
+  inCharge: {
+  name: "Pio Thony Melwin",
+  contact: "9994089208"
+},
+icon: "image",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfvjR0_8DeybMqRY69isQ9BERhO6kq8LUUqoFRFJB9yvkvF1A/viewform?usp=publish-editor",
   rules: [
     "Participants can participate individually or in teams of 2.",

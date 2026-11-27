@@ -4,7 +4,11 @@ export default {
   title: "TWIN TONES",
   category: "DUAL ADAPTUNE",
   description: "Team up, adapt on the fly, and out-dance the beat.",
-  icon: "music",
+  inCharge: {
+  name: "Dhiyal",
+  contact: "6385612099"
+},
+icon: "music",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd8_X5foekI5Gg85uvgegTFfSlCOo35l69US1x-ZczqH5BbYA/viewform?usp=publish-editor",
  rules: [
     "Each team can consist of 2 participants.",

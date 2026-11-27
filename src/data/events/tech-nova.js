@@ -4,9 +4,13 @@ export default {
   title: "TECH NOVA",
   category: "PAPER PRESENTATION",
   description: "Present your ideas, defend your research and make an impact.",
-  icon: "presentation",
+  inCharge: {
+  name: "Johaan Calistus",
+  contact: "9176560547"
+},
+icon: "presentation",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLScNXgwrk2yL-bc-3Qlru6JUTxe7byDuwMIDz_NwvepjxGLptg/viewform?usp=publish-editor",
- rules: [
+ rules: ["Mail Id for Submission: technova.zamnira26@gmail.com",
     "Participants may participate individually or in teams of 2.",
     "The event is open to presentations based exclusively on technical themes.",
     "Each participant/team must prepare and present their own original research paper.",

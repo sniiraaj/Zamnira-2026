@@ -4,7 +4,11 @@ export default {
   title: "DUAL SYNTAX",
   category: "CODE SWITCH",
   description: "Switch between languages, adapt your logic and master the challenge.",
-  icon: "code",
+  inCharge: {
+  name: "NIIRAAJ SUPARNA S",
+  contact: "8668155161"
+},
+icon: "code",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSehhvhEM4C5aoSYk_TborVc6peBxvWPBgfa4R1wuUNsYuNu5A/viewform?usp=publish-editor",
   rules: [
     "Participants can participate individually or in teams of 2.",

@@ -12,7 +12,7 @@ export default function Hero() {
         <p className="eyebrow">{homeData.eyebrow}</p>
         <p className="hero-college">{homeData.college}</p>
         <p className="hero-department">{homeData.department}</p>
-        <h1>{homeData.festName}<span>.</span></h1>
+       <h1>{homeData.festName}</h1>
         <p className="hero-tagline">{homeData.tagline}</p>
 
         <div className="hero-meta">

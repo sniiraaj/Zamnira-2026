@@ -4,7 +4,11 @@ export default {
   title: "SONIC ENIGMA",
   category: "START MUSIC",
   description: "Race the buzzer and solve visual clues in an epic music showdown.",
-  icon: "music-waveform",
+  inCharge: {
+  name: "Shalo Daniel",
+  contact: "9042830975"
+},
+icon: "music-waveform",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfhxTzMytSvUqQvLQF4jxIq_n2maQgQRZqAZNCSVEWjLKrcKw/viewform?usp=publish-editor",
   rules: [
     "Each team must consist of a minimum of 2 members and a maximum of 3 members.",

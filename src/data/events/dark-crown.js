@@ -4,7 +4,11 @@ export default {
   title: "THE DARK CROWN",
   category: "MR. & MS. ZAMNIRA",
   description: "Command the stage with talent and confidence to claim the crown.",
-  icon: "crown",
+  inCharge: {
+  name: "Juhi Rachel",
+  contact: "8124305884"
+},
+icon: "crown",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc7b5wKsPy01o-SLDPdKrxjRAGq0Wgq1lth3FCWLOy_VM7aCw/viewform?usp=publish-editor",
 rules: [
     "Participants will compete individually for the titles of Mr. Zamnira and Ms. Zamnira.",

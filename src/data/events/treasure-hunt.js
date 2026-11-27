@@ -4,7 +4,11 @@ export default {
   title: "CIPHER QUEST",
   category: "TREASURE HUNT",
   description: "Decode the clues and race the clock to find the hidden prize.",
-  icon: "map",
+  inCharge: {
+  name: "Jeeva",
+  contact: "6369662366"
+},
+icon: "map",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfc57Up8V1gTkhtbxHwyJUMRZW7Gu0svdabnueIbiR60RnMoQ/viewform?usp=publish-editor",
   rules: [
     "Each team must consist of a minimum of 2 members and a maximum of 4 members.",
