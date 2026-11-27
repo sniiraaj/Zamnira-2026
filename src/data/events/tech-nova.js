@@ -5,8 +5,8 @@ export default {
   category: "PAPER PRESENTATION",
   description: "Present your ideas, defend your research and make an impact.",
   inCharge: {
-  name: "T J CALISTUS JOHAN",
-  contact: "+91 9176560547"
+  name: "Lingeshwaran",
+  contact: "+91 9176777971"
 },
 icon: "presentation",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLScNXgwrk2yL-bc-3Qlru6JUTxe7byDuwMIDz_NwvepjxGLptg/viewform?usp=publish-editor",

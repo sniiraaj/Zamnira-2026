@@ -5,8 +5,8 @@ export default {
   category: "MR. & MS. ZAMNIRA",
   description: "Command the stage with talent and confidence to claim the crown.",
   inCharge: {
-  name: "Juhi Rachel",
-  contact: "+91 8124305884"
+  name: "Verlin Rafel",
+  contact: "+91 7868060627"
 },
 icon: "crown",
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc7b5wKsPy01o-SLDPdKrxjRAGq0Wgq1lth3FCWLOy_VM7aCw/viewform?usp=publish-editor",
