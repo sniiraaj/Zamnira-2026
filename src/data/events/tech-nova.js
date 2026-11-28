@@ -7,7 +7,7 @@ export default {
   description: "Present your ideas, defend your research and make an impact.",
 
   inCharge: {
-    name: "Lingeshwaran",
+    name: "Linkesh",
     contact: "+91 9176777971"
   },
 
