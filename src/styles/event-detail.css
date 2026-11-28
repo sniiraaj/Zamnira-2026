@@ -414,3 +414,66 @@
     width: 100%;
   }
 }
+
+/* TECH NOVA RESEARCH DOMAINS */
+
+.event-domains {
+  padding-top: 65px;
+}
+
+.event-domains .event-detail-section-heading {
+  margin-bottom: 30px;
+}
+
+.event-domains-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.event-domain-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 65px;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 190, 230, 0.25);
+  background: linear-gradient(110deg, #092440, #041426);
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.event-domain-item:hover {
+  border-color: #00d9f5;
+  transform: translateY(-3px);
+}
+
+.event-domain-item span {
+  color: #00d9f5;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.event-domain-item p {
+  color: #eaf5ff;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 760px) {
+  .event-domains {
+    padding-top: 48px;
+  }
+
+  .event-domains-list {
+    grid-template-columns: 1fr;
+  }
+
+  .event-domain-item {
+    min-height: 60px;
+    padding: 14px 16px;
+  }
+}

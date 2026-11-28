@@ -68,8 +68,7 @@ export default function EventDetail({ eventId }) {
           DEPARTMENT OF COMPUTER SCIENCE AND APPLICATIONS
         </p>
       </section>
-
-      {/* EVENT IN-CHARGE CARD */}
+{/* EVENT IN-CHARGE CARD */}
       <section className="event-incharge-card">
         <p className="eyebrow">EVENT IN-CHARGE</p>
 
@@ -84,6 +83,40 @@ export default function EventDetail({ eventId }) {
         </p>
       </section>
 
+      {/* RESEARCH DOMAINS - TECH NOVA ONLY */}
+      {event.domains?.length > 0 && (
+        <section className="event-domains">
+          <div className="event-detail-section-heading">
+            <div>
+              <p className="eyebrow">EXPLORE YOUR RESEARCH AREA</p>
+              <h2>
+                Research <span>Domains.</span>
+              </h2>
+            </div>
+
+            <p>
+              Choose from the following research areas for your paper
+              presentation.
+            </p>
+          </div>
+
+          <div className="event-domains-list">
+            {event.domains.map((domain, index) => (
+              <div
+                className="event-domain-item"
+                key={`${domain}-${index}`}
+              >
+                <span>
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <p>{domain}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      
       <section
         className="event-detail-rules"
         aria-labelledby="general-rules-heading"

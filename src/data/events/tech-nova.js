@@ -1,16 +1,40 @@
+
 // Edit this file to change the TECH NOVA event page and its registration link.
 export default {
   id: "dark-canvas",
   title: "TECH NOVA",
   category: "PAPER PRESENTATION",
   description: "Present your ideas, defend your research and make an impact.",
+
   inCharge: {
-  name: "Lingeshwaran",
-  contact: "+91 9176777971"
-},
-icon: "presentation",
+    name: "Lingeshwaran",
+    contact: "+91 9176777971"
+  },
+
+  icon: "presentation",
+
   registrationUrl: "https://docs.google.com/forms/d/e/1FAIpQLScNXgwrk2yL-bc-3Qlru6JUTxe7byDuwMIDz_NwvepjxGLptg/viewform?usp=publish-editor",
- rules: ["Mail Id for Submission: technova.zamnira26@gmail.com",
+
+  domains: [
+    "Privacy-preserving ML",
+    "Green Computing",
+    "Agentic and Multi-agent Systems",
+    "Large Language Models",
+    "Natural Language Processing",
+    "AI Safety",
+    "Prompt Engineering",
+    "Augmented Reality / Virtual Reality",
+    "Classification and Prediction",
+    "Edge Computing and IoT",
+    "Cloud Security",
+    "Soft Computing",
+    "Image Processing and Computer Vision",
+    "Agentic and Ethical AI",
+    "Other Related Areas"
+  ],
+
+  rules: [
+    "Mail Id for Submission: technova.zamnira26@gmail.com",
     "Participants may participate individually or in teams of 2.",
     "The event is open to presentations based exclusively on technical themes.",
     "Each participant/team must prepare and present their own original research paper.",
@@ -34,5 +58,5 @@ icon: "presentation",
     "Judging criteria: Content quality, innovation, technical knowledge, presentation skills and team coordination.",
     "The judges' decision will be final and binding.",
     "The organising committee reserves the right to make necessary decisions regarding the smooth conduct of the event."
-]
+  ]
 };
